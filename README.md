@@ -1,19 +1,26 @@
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
+![LangGraph](https://img.shields.io/badge/LangGraph-AI-green)
+![Groq](https://img.shields.io/badge/Groq-Llama3.1-orange)
+
+## 🌐 Live Demo
+
+🔗 https://9xmuxzq97mbdmfykbrxojo.streamlit.app/
 # 🤖 Smart Support Assistant v1.0
 
 An AI-powered Customer Support Assistant built using **LangGraph**, **Groq Llama 3.1**, and **Streamlit**. The application intelligently categorizes customer queries, analyzes sentiment, manages support tickets, and provides a conversational chat interface.
 
 ---
 
-## ✨ Features
+## 🚀 Key Features
 
-- 💬 Interactive chat interface
-- 🧠 AI-powered query categorization
-- 😊 Sentiment analysis
-- 🔀 LangGraph workflow routing
-- 🎫 Smart ticket creation and updating
-- 💾 Persistent ticket storage using JSON
-- 📜 Conversation history
-- 🏗 Modular project architecture
+- AI-powered customer query classification
+- Intelligent sentiment analysis
+- Dynamic workflow routing using LangGraph
+- Smart ticket creation and updates
+- Persistent JSON-based ticket storage
+- Interactive Streamlit chat interface
+- Conversation history management
 
 ---
 
@@ -47,7 +54,15 @@ LangGraph Workflow
            ▼
       tickets.json
 ```
+## ⚙️ Workflow
 
+1. User enters a query.
+2. LangGraph categorizes the query.
+3. AI analyzes customer sentiment.
+4. Workflow decides the next action.
+5. AI responds or creates/updates a support ticket.
+6. Ticket information is stored in JSON.
+---
 ## 📂 Project Structure
 
 ```text
@@ -99,7 +114,26 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-(Add screenshots after deployment.)
+### Home Page
+![Home](assets/home.png)
+---
+### Chat Conversation
+
+![Chat](assets/chat.png)
+
+---
+
+### Ticket Creation
+
+![Ticket](assets/ticket_created.png)
+
+---
+### Ticket Updation
+
+![Ticket](assets/ticket_updated.png)
+
+---
+
 
 ---
 
@@ -115,4 +149,4 @@ streamlit run app.py
 
 ## 👩‍💻 Author
 
-**Padilam Jayasri**
+**Padilam Jaya Sri**
